@@ -4,6 +4,11 @@
 <dict>
 	<key>SchemeUserState</key>
 	<dict>
+		<key>ContentBlocker.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>1</integer>
+		</dict>
 		<key>DailyMashAdBlocker.xcscheme</key>
 		<dict>
 			<key>orderHint</key>
@@ -13,6 +18,11 @@
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
 		<key>8CB1DB561C8F79A80060F043</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>8CB1DB6F1C8F7A240060F043</key>
 		<dict>
 			<key>primary</key>
 			<true/>

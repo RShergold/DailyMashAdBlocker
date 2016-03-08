@@ -1,0 +1,28 @@
+[
+  {
+    "trigger": {
+      "url-filter": "thedailymash.co.uk"
+    },
+    "action": {
+      "type": "css-display-none",
+      "selector": "#ecd_opt_in_banner, #mobile-bottom, .shop-link-text, .footer"
+    }
+  },
+  {
+    "trigger": {
+      "url-filter": ".*",
+      "resource-type": [
+        "script"
+      ],
+      "load-type": [
+        "third-party"
+      ],
+      "if-domain": [
+        "*thedailymash.co.uk"
+      ]
+    },
+    "action": {
+      "type": "block"
+    }
+  }
+]
